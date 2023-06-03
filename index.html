@@ -7,5 +7,237 @@
     <link rel="stylesheet" href="/dist/css/styles.css" />
     <title>(S)CSS Masterclass</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1>
+        Avante N
+        <nav>
+          <ul>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+        </nav>
+      </h1>
+      <nav class="logo">
+        <ul>
+          <img
+            src="data:image/png;base64,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"
+          />
+        </ul>
+        <ul>
+          <img
+            src="data:image/png;base64,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"
+          />
+        </ul>
+      </nav>
+      <span
+        >오빠 인스타다.
+        <a href="https://www.instagram.com/pan_5985.00/" target="_blank"
+          ><i class="fa-brands fa-instagram fa-2x"></i></a
+      ></span>
+    </header>
+    <main class="posts">
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">17. August 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 차 샀다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Never Just</span>
+          <span class="comments">Drive</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">29. Agust 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 바퀴 바꿨다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">It's</span>
+          <span class="comments">Avante 'N'</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">16. November 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 군대 간다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Oppa</span>
+          <span class="comments">Go Army</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">3. June 2023</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>내려.</h3></div>
+        </div>
+        <footer>
+          <span class="category">...</span>
+          <span class="comments">Mx5</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">17. December 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 사고 났다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Summer</span>
+          <span class="comments">Tire</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">21. March 2023</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 왔다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Go Back</span>
+          <span class="comments">Home</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">11. June 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 ㅈ됐다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Bump Into</span>
+          <span class="comments">Gorani</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">19. May 2023</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 수리했다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Respawn</span>
+          <span class="comments">N</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">8. July 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 퇴근한다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Home</span>
+          <span class="comments">Gimozzi</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">13. August 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 캠핑왔다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Newsletter</span>
+          <span class="comments">1 Kommentar</span>
+        </footer>
+      </section>
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">11. August 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 차 어때.</h3></div>
+        </div>
+        <footer>
+          <span class="category">Goood</span>
+          <span class="comments">Day</span>
+        </footer>
+      </section>
+
+      <section class="post">
+        <header class="post__header">
+          <span class="post__date">11. June 2022</span>
+          <span class="post__author">Jonghyeon Park</span>
+        </header>
+        <div class="post__content">
+          <div class="visible">
+            <img
+              src="https://image.fmkorea.com/files/attach/new2/20220303/6761627/709404956/4394023259/3a27c67bf9e984fdf1a802a7ef2e4252.jpg"
+            />
+            <h3></h3>
+          </div>
+          <div class="invisible"><h3>오빠 병신 아니다.</h3></div>
+        </div>
+        <footer>
+          <span class="category">No.</span>
+          <span class="comments">Byeong Sin.</span>
+        </footer>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/8c20eeed7a.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
